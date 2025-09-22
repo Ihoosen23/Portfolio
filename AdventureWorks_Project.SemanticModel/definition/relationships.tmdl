@@ -1,0 +1,19 @@
+relationship 0583c455-7236-48f6-9e83-27a4514bb1eb
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Query1.DueDate
+	toColumn: LocalDateTable_62699ae4-4c6d-41fa-b437-61a2a3b90f63.Date
+
+relationship cce53a14-e106-495b-924b-487488cdec5a
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Query1.ShipDate
+	toColumn: LocalDateTable_50fcc6ff-5c2a-4211-9f3b-5605511d2ba8.Date
+
+relationship 9d4b1e0c-bcea-4757-a1d3-45a0fc2eb15e
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Query1.FullDate
+	toColumn: LocalDateTable_20a8ec80-e5b3-489f-9ac0-aa129ffb7885.Date
+
+relationship 659a5208-9b34-04df-0272-376f0bb09755
+	fromColumn: Query1.OrderDate
+	toColumn: DateTable.Date
+

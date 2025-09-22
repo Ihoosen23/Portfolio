@@ -1,0 +1,75 @@
+table DateTable
+	lineageTag: a7ac3b85-bade-44e3-a4a9-a2ffa54a9d60
+	dataCategory: Time
+
+	column Date
+		isKey
+		formatString: General Date
+		lineageTag: 88c9c065-9058-47a9-84b4-8e83a3c2155d
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Date]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Year
+		formatString: 0
+		lineageTag: 8c149105-9ccb-4e6f-9413-ead01bfe5e59
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Year]
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Month Number'
+		lineageTag: 7325c845-ebc5-4b54-bde8-fc975fbe399f
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Month Number]
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Month Name'
+		dataType: string
+		lineageTag: 575174c8-8271-49aa-b893-a13b1a046d40
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Month Name]
+		sortByColumn: 'Month Number'
+
+		annotation SummarizationSetBy = Automatic
+
+	column Quarter
+		lineageTag: d5575aa2-345e-43bd-8100-f6daeae305cf
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Quarter]
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Year Quarter'
+		lineageTag: 7614ec30-05f0-4e19-a3d2-c04cd97b85a7
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Year Quarter]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DateTable = calculated
+		mode: import
+		source =
+				
+				VAR MinDate = MIN( Query1[OrderDate] ) // Finds the earliest date in your data
+				VAR MaxDate = MAX( Query1[OrderDate] ) // Finds the latest date in your data
+				RETURN
+				ADDCOLUMNS(
+				    CALENDAR( MinDate, MaxDate ), // Creates a table with every date between Min and Max
+				    "Year", YEAR( [Date] ),
+				    "Month Number", FORMAT( [Date], "MM" ),
+				    "Month Name", FORMAT( [Date], "MMMM" ),
+				    "Quarter", "Q" & FORMAT( [Date], "Q" ),
+				    "Year Quarter", FORMAT( [Date], "YYYY" ) & " Q" & FORMAT( [Date], "Q" )
+				)
+
+	annotation PBI_Id = f6f30bd06d8f4b119656a1e793162fb3
+
