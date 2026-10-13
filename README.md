@@ -23,7 +23,7 @@ These existing projects are part of my earlier hands-on portfolio and remain ava
 - [SQL data cleaning](./Data%20Cleaning.sql) — cleaning datasets for analysis.
 - [SQL exploratory analysis](./Exploratory%20Data%20Analysis.sql) — exploratory queries and analysis.
 
-**[View the existing analytics portfolio website](https://github.com/Ihoosen23/imranhoosen.github.io)**. This is a separate, older Power BI/SQL portfolio, not the same as my current Rosewood Digital work.
+**[View my updated personal portfolio website](https://ihoosen23.github.io/imranhoosen.github.io/)**, which brings together my current work and earlier analytics projects.
 
 ## Selected projects
 
@@ -36,16 +36,6 @@ These existing projects are part of my earlier hands-on portfolio and remain ava
 **My contribution:** Research and outreach, product direction, reviewing interface changes, checking user flows and refining requirements based on feedback.
 
 **Status:** Active private development. The repository is not publicly available.
-
-### Vellen / TradieQuote AI | Trades quoting
-
-**Problem area:** Converting informal job notes into clear, professional quotes can be time-consuming.
-
-**Approach:** Explore an AI-assisted flow for structured line items, quote calculations and PDF generation for New Zealand tradespeople.
-
-**My contribution:** Workflow definition, product decisions, feedback gathering, manual review and AI-assisted development coordination.
-
-**Status:** Private product work. This description is not a claim of a publicly available commercial release.
 
 ### Rosewood Digital | Product studio
 
