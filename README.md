@@ -13,6 +13,18 @@ I explore practical business problems and coordinate the development of digital 
 
 I also bring hands-on experience in logistics, administration, data entry and invoicing. These operational experiences shape the problems I choose to work on.
 
+## Public data and analytics portfolio
+
+These existing projects are part of my earlier hands-on portfolio and remain available in this repository:
+
+- [AdventureWorks Cycles dashboard](./Adventure) — sales reporting and business-intelligence visualisation.
+- [Patient waiting-list dashboard](./Patient) — waiting-list status and historical trend reporting.
+- [Airline dashboard](./Airport) — flight delays and cancellations analysis.
+- [SQL data cleaning](./Data%20Cleaning.sql) — cleaning datasets for analysis.
+- [SQL exploratory analysis](./Exploratory%20Data%20Analysis.sql) — exploratory queries and analysis.
+
+**[View the existing analytics portfolio website](https://github.com/Ihoosen23/imranhoosen.github.io)**. This is a separate, older Power BI/SQL portfolio, not the same as my current Rosewood Digital work.
+
 ## Selected projects
 
 ### Listing Genius | Real-estate workflows
