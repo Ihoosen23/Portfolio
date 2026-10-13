@@ -1,38 +1,68 @@
-# Imran Hoosen
+# Portfolio | Imran Hoosen
 
-**Digital Product Builder | Founder, Rosewood Digital | Operations & Product QA**
+**Digital product direction, testing, workflow improvement and AI-assisted development**  
+Auckland, New Zealand · Founder of [Rosewood Digital](https://rosewooddigital.co.nz)
 
-Based in Auckland, New Zealand. I work at the intersection of digital products, practical business workflows, and AI-assisted development.
+[**GitHub profile**](https://github.com/Ihoosen23) · [**Rosewood Digital website**](https://rosewooddigital.co.nz)
 
-I founded [Rosewood Digital](https://rosewooddigital.co.nz) to explore and build tools that reduce repetitive work. I guide product direction, gather feedback, test functionality, document issues, and use AI-assisted development tools to iterate on solutions.
+---
 
-## What I work on
+## What I do
 
-- **Product development and testing:** Defining requirements, reviewing user flows, checking functionality, documenting bugs, and refining interfaces.
-- **Workflow improvement:** Turning repetitive administrative and operational processes into clearer digital workflows.
-- **Research and user feedback:** Gathering real-world input, evaluating ideas, and adjusting product direction based on evidence.
-- **Operations and administration:** Experience with data entry, invoicing, records, and logistics.
+I explore practical business problems and coordinate the development of digital solutions. My work combines research, requirements, AI-assisted development workflows, manual testing, issue documentation, feedback collection and iteration.
+
+I also bring hands-on experience in logistics, administration, data entry and invoicing. These operational experiences shape the problems I choose to work on.
 
 ## Selected projects
 
-### Listing Genius
-A real-estate workflow product exploring ways to reduce repetitive tasks around property listings. My work includes product direction, user feedback, testing, and iterative improvements to the experience.
+### Listing Genius | Real-estate workflows
 
-### Vellen / TradieQuote AI
-An AI-assisted quoting workflow for New Zealand tradespeople, exploring structured quote creation from rough job notes, pricing calculations, and PDF outputs.
+**Problem area:** Property-related administrative work can involve repetitive steps and duplicated effort.
 
-### Rosewood Digital
-The umbrella for my digital-product work and research. [Visit the website](https://rosewooddigital.co.nz).
+**Approach:** Explore software workflows that help agents organise and reuse work around listings. Product direction has been informed by feedback from real-estate professionals.
 
-> Some product repositories are private while under development. Descriptions here focus on my actual contribution and do not imply that I independently engineered every component.
+**My contribution:** Research and outreach, product direction, reviewing interface changes, checking user flows and refining requirements based on feedback.
 
-## How I work
+**Status:** Active private development. The repository is not publicly available.
 
-I use GitHub and AI-assisted development tools to coordinate iterations, review changes, test outcomes, and document decisions. I value clear communication, careful quality checks, and learning by building.
+### Vellen / TradieQuote AI | Trades quoting
 
-## Open to opportunities
+**Problem area:** Converting informal job notes into clear, professional quotes can be time-consuming.
 
-I'm interested in remote opportunities in **product QA, operations support, digital administration, data quality, and AI-assisted workflows**, including project-based and fixed-term contracts.
+**Approach:** Explore an AI-assisted flow for structured line items, quote calculations and PDF generation for New Zealand tradespeople.
 
-**Website:** [rosewooddigital.co.nz](https://rosewooddigital.co.nz)  
-**GitHub:** [github.com/Ihoosen23](https://github.com/Ihoosen23)
+**My contribution:** Workflow definition, product decisions, feedback gathering, manual review and AI-assisted development coordination.
+
+**Status:** Private product work. This description is not a claim of a publicly available commercial release.
+
+### Rosewood Digital | Product studio
+
+**Focus:** Practical digital tools and experiments aimed at reducing repetitive work.
+
+**My contribution:** Founder; coordinating product direction, research, content, testing and iterations across projects.
+
+**Website:** [rosewooddigital.co.nz](https://rosewooddigital.co.nz)
+
+## Capabilities
+
+| Product and digital workflows | Business and operations |
+| --- | --- |
+| Manual QA and user-flow reviews | Data entry and records |
+| Issue documentation and feedback analysis | Invoicing and administrative support |
+| Requirements and feature prioritisation | Logistics and coordination |
+| AI-assisted product iteration | Research and clear written communication |
+
+## Working approach
+
+1. **Understand the problem:** Talk to users, review existing workflows and identify the real friction.
+2. **Define a small, testable improvement:** Keep scope grounded in available evidence.
+3. **Build and review:** Use appropriate tools, including AI-assisted development, and check outputs carefully.
+4. **Iterate:** Record issues, evaluate feedback and adjust priorities.
+
+I do not present AI-generated implementation as code I independently authored. My focus is product judgment, coordination, testing and learning through hands-on work.
+
+## Opportunities
+
+I'm open to fully remote roles and projects in **manual software QA, product operations, digital administration, data quality, research and AI-assisted workflow support**.
+
+For enquiries and more about my work, visit [Rosewood Digital](https://rosewooddigital.co.nz).
